@@ -1,0 +1,9 @@
+packagemgt(){
+        echo What is the name of the package you want to install?
+        read P
+        sudo yum update -y
+        sudo yum install $P
+}
+
+packagemgt
+
